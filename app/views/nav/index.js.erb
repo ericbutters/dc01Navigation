@@ -1,0 +1,22 @@
+$('#nav').click( function() {
+    $("#wall").animate({
+			width: "70px"
+	  }, "fast");	 
+    $("#nav").animate({
+			width: "300px"
+	  }, "fast");	
+    $('#wall').text("WALL - click to enlarge");   
+    $('#nav').text("NAV");
+});
+
+$('#wall').click( function() {
+    $("#nav").animate({
+			width: "70px"
+	  }, "fast");	 
+    $("#wall").animate({
+			width: "300px"
+	  }, "fast");	   
+    $('#nav').text("NAV - click to enlarge");    
+    $('#wall').text("WALL"); 
+});
+

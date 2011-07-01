@@ -1,25 +1,26 @@
-
-$('#nav').click( function() {
+$('#swap').toggle(function() {
     $("#wall").animate({
-	backgroundColor: '#080808', width: "50px"
+	     backgroundColor: '#080808', width: '50px', height: '20px'
     }, "fast");	 
     $("#nav").animate({
-	backgroundColor: '#000000', width: '500px'
+	     backgroundColor: '#000000', width: '500px', height: '350px'
     }, "fast");	
     $('#wall').text("WALL");
     $('#nav').text("NAV");
     $("#nav").append("<%= escape_javascript(render(:partial => 'nav')) %>");
-});
-
-$('#wall').click( function() {
+    $("#swap").text("<");
+  }, function() {
     $("#nav").animate({
-	backgroundColor: '#080808', width: '50px'
+	backgroundColor: '#080808', width: '50px', height: '20px'
     }, "fast");	 
     $("#wall").animate({
-	backgroundColor: '#000000', width: "500px"
+	backgroundColor: '#000000', width: "500px", height: '350px'
      }, "fast");
     $('#nav').text("NAV");
     $('#wall').text("WALL"); 
-    $("#wall").append("<%= escape_javascript(render(:partial => 'wall')) %>");
+    $("#wall").append("<%= escape_javascript(render(:partial => 'wall')) %>"); 
+    $("#swap").text(">");
 });
+
+
 

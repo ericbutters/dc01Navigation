@@ -4,9 +4,27 @@
   padding-top: 10px;
   margin-top: 5px;
   width: 50px;
-  height: 350px;
-  border-radius: 10px;
+  height: 20px;
+  border-radius: 2px;
   float: left;
+}
+
+#swap {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00b3ee;
+  background-color: #080808;
+  padding-left: 4px;
+  padding-top: 4px;
+  margin-top: 5px;
+  width: 20px;
+  height: 26px;
+  border: 0px solid;
+  border-radius: 2px;
+  float: left;  
+  h2 {
+    color: #00b3ee;
+  }
 }
 
 #_wall{
@@ -20,7 +38,7 @@ background-color: #000;
   margin-top: 5px;
   width: 500px;
   height: 350px;
-  border-radius: 10px;
+  border-radius: 2px;
   float: left;  
 }
 

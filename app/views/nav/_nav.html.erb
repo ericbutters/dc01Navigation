@@ -1,0 +1,20 @@
+<div id="themail">
+<table>
+  <tr>
+    <td align="right">To:</td>
+    <td><%= text_field_tag(:subject) %></td>
+  </tr>
+  <tr>
+    <td align="right">Subject:</td>
+    <td><div id="h2"><%= text_field_tag(:subject) %></div></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= text_area_tag(:message) %></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= submit_tag("Send") %></td>
+  </tr>
+</table>
+</div>

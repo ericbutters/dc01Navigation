@@ -1,24 +1,69 @@
 #nav {
-  background-color: #0f0;
+  background-color: #080808;
   padding-left: 10px;
   padding-top: 10px;
-  margin-top: 50px;
-  width: 70px;
-  height: 100px;
+  margin-top: 5px;
+  width: 50px;
+  height: 350px;
   border-radius: 10px;
   float: left;
 }
 
+#_wall{
+background-color: #000;
+}
+
 #wall {
-  background-color: #00f;
+  background-color: #000;
   padding-left: 10px;
   padding-top: 10px;
-  margin-top: 50px;
-  width: 300px;
-  height: 100px;
+  margin-top: 5px;
+  width: 500px;
+  height: 350px;
   border-radius: 10px;
   float: left;  
 }
+
+#themail {
+  padding: 20px 10px;
+  background-color: #000;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  h2 {
+    color: #00b3ee;
+  }
+}
+
+input {
+    color: #fff;
+    font-size: 12px;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    border: 0px}
+
+  #h2 {    
+    input {
+      width: 403px;
+      color: #00b3ee;
+      font-size: 22px;
+      font-weight: bold;
+      background-color: #0f0f0f;
+      border-radius: 5px;
+      border: 0px; }
+  }
+
+  textarea {
+    width: 400px;
+    height:200px;
+    font-family: verdana;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    border: 0px;
+  }
+
 
 #users {
   background-color: #f00;
@@ -28,8 +73,21 @@
   float: left;
 }
 
+#header {
+  margin: 0;
+  color: #fff;
+  background-position: 0 0;
+  background-color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
 body {
-  background-color: #fff;
+  background-color: #0f0f0f;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;

@@ -1,3 +1,13 @@
+  $("#swap").mouseover(function() {
+    $("#swap").animate({
+	     backgroundColor: '#00b3ee', color: '#ffffff'
+    }, "fast");	 
+  }).mouseout(function(){
+ $("#swap").animate({
+	     backgroundColor: '#080808', color: '#00b3ee'
+    }, "fast");	
+  });
+
 $('#swap').toggle(function() {
     $("#wall").animate({
 	     backgroundColor: '#080808', width: '50px', height: '20px'
